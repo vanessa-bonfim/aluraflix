@@ -40,7 +40,8 @@ export const GlobalStyle = createGlobalStyle`
     --smaller-body-size: 12px;
 
     --weight-400: 400; 
-    --weight-300: 300; 
+    --weight-300: 300;
+    --weight-600: 600;
   }
   * {
   box-sizing: border-box;

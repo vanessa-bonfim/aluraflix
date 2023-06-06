@@ -1,33 +1,21 @@
 import React from "react";
 // Importação do módulo 'styled' do 'styled-components'
 import styled from "styled-components";
-// Importação da imagem do logotipo da marca
-import brand__image from "assets/imgs/logo.png";
-
-// Estilização do botão de cabeçalho
-
+import Brand from "components/Brand";
 
 // Estilização do cabeçalho
-const StyledHeader = styled.nav`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 15vw;
+const StyledHeader = styled.header`
     height: 40px;
-    align-items: center;
+    margin-bottom: 6px;
+    border-bottom: 2px solid var(--primary-color);
+    
 `;
-
-// Estilização do logotipo da marca
-const Brand = styled.img`
-    height: 30px;
-    width: 50%;    
-`;
-// Estilização da linha
-const Line = styled.hr`
-    height: 2px;
-    width: 100%;
-    background-color: var(--primary-color);
-    border-color:var(--primary-color);    
+const StyleDiv = styled.div`
+    padding: 8px 40px 6px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 `;
 
 // Componente 'Header'
@@ -35,10 +23,10 @@ const Header = () => {
     return (
         <>
             <StyledHeader>
-                {/* Renderização do logotipo da marca */}
-                <Brand src={brand__image} alt="Logo AluraFlix." />                
+               <StyleDiv>
+               <Brand/>
+               </StyleDiv>
             </StyledHeader>
-            <Line/>
         </>
     );
 };
