@@ -42,6 +42,7 @@ export const GlobalStyle = createGlobalStyle`
     --weight-400: 400; 
     --weight-300: 300;
     --weight-600: 600;
+    --weight-700: 700;
   }
   * {
   box-sizing: border-box;
