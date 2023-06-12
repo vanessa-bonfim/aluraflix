@@ -4,10 +4,12 @@ import styled from "styled-components";
 const StyleFooter = styled.section`
     width:100%;
     height: 110px;
-    padding: 0 17px;
+    padding: 20px 17px;
     border-top: 2px solid var(--primary-color);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     
 `;
 
