@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import banner__image from ""
+import banner__image from "assets/images/logo.png"
 
 const StyleBanner = styled.section`
     width: 100%;

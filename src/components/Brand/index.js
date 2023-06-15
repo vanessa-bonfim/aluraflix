@@ -1,6 +1,6 @@
 import styled from "styled-components";
 // Importação da imagem do logotipo da marca
-import brand__image from "assets/imgs/logo.png";
+import brand__image from "assets/images/logo.png";
 
 // Estilização do logotipo da marca
 const StyledBrand = styled.img`
