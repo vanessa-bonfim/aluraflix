@@ -3,7 +3,7 @@ import { GlobalStyle } from "components/GlobalStyle";
 import Header from "components/Header";
 import Banner from "components/Banner";
 import Footer from "components/Footer";
-import Container from "components/Container";
+import Container from "components/DefaulfPage";
 
 function App() {
   return (
